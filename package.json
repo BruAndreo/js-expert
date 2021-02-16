@@ -1,0 +1,25 @@
+{
+  "name": "js-expert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --parallel --exit aula3/test/",
+    "test:dev": "npx mocha aula3/test/ -w",
+    "test:cov": "npx nyc --reporters=html,text npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://BruAndreo@bitbucket.org/BruAndreo/js-expert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/BruAndreo/js-expert#readme",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}
